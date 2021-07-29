@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li a{
+    color: black;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover, h1:hover{
+    color:rgb(52, 102, 189) 
+}
+nav img{
+    width: 20px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10000;
+}
+ul{
+    list-style: none;
+}
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+nav ul{
+    background-color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+nav li{
+    padding-right: 2em;
+}
+p{
+    text-align: center;
+}
+.wrap{
+    width:100%;
+    max-width: 500px; 
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+form{
+    margin-bottom: 3rem;
+    border: 3px rgb(52, 102, 189) solid ;
+    border-radius: 2%;
+    padding: 10px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+label{
+    font-size: 1.1rem;
+} 
+input{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.error{
+    color:red;
+    font-size: 0.8rem;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table thead a, tr a{
+    color: black;
+}
+table{
+    border: 2px rgb(52, 102, 189) solid;
+   
+}
+tr,th,td{
+   
+  
+    padding: 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#bnjr{
+    color: white;
+    display: flex;
+    float: right;
+    align-items: center;
+    background-color: black;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#mesreves{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.one_reve{
+    display: block;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    
+ 
+}
+.one_reve h3{
+    display: block;
+    padding: 1em;
+
+    
+ 
+}
+.one_reve p {
+    display: block;
+    padding: 1em;
+
+    
+ 
+}
+.tc{
+    padding-top: 2em;
+    
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.pagination li{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    font-weight: 900;
+}
+h1{
+    padding: 1em;
+}
+.one_reve img{
+    width: 200px;
+    
+ 
+}
+#ftr{ 
+    color: white;
+    background-color: black;
+    padding: 2em;
+    margin-top: 2em;
+    text-align: center;
+   
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.wrap {
+    flex: 1 0 auto;
+}
+ 
+.wrap1 {
+    flex: 1 0 auto;
+  }
